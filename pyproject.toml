@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "datatable_column_error"
+version = "0.1.0"
+description = "An example for an error in datatable"
+authors = ["Björn Guth <b.guth@netcon-consulting.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+datatable = {git = "https://github.com/h2oai/datatable.git", rev = "main"}
+
+[tool.poetry.dev-dependencies]
+black = "^20.8b1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
